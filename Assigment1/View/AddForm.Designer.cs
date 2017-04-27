@@ -115,6 +115,7 @@
             this.txtTitle.Name = "txtTitle";
             this.txtTitle.Size = new System.Drawing.Size(100, 20);
             this.txtTitle.TabIndex = 28;
+            this.txtTitle.TextChanged += new System.EventHandler(this.txtTitle_TextChanged);
             // 
             // lblUserName
             // 
@@ -249,25 +250,25 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtSize;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.TextBox txtColor;
-        private System.Windows.Forms.Label lblFirstName;
-        private System.Windows.Forms.TextBox txtDescription;
-        private System.Windows.Forms.Label lblPassword;
-        private System.Windows.Forms.TextBox txtTitle;
-        private System.Windows.Forms.Label lblUserName;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtStock;
-        private System.Windows.Forms.TextBox txtPrice;
+        public System.Windows.Forms.TextBox txtSize;
+        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Button btnAdd;
+        public System.Windows.Forms.TextBox txtColor;
+        public System.Windows.Forms.Label lblFirstName;
+        public System.Windows.Forms.TextBox txtDescription;
+        public System.Windows.Forms.Label lblPassword;
+        public System.Windows.Forms.TextBox txtTitle;
+        public System.Windows.Forms.Label lblUserName;
+        public System.Windows.Forms.DataGridView dataGridView1;
+        public System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        public System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        public System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        public System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        public System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        public System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        public System.Windows.Forms.Label label2;
+        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.TextBox txtStock;
+        public System.Windows.Forms.TextBox txtPrice;
     }
 }

@@ -259,25 +259,25 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtAge;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox txtSex;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtLastName;
-        private System.Windows.Forms.Label lblFirstName;
-        private System.Windows.Forms.TextBox txtFirstName;
-        private System.Windows.Forms.Label lblPassword;
-        private System.Windows.Forms.TextBox txtID;
-        private System.Windows.Forms.Label lblUserName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        public System.Windows.Forms.TextBox txtAge;
+        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.DataGridView dataGridView1;
+        public System.Windows.Forms.TextBox txtSex;
+        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.TextBox txtLastName;
+        public System.Windows.Forms.Label lblFirstName;
+        public System.Windows.Forms.TextBox txtFirstName;
+        public System.Windows.Forms.Label lblPassword;
+        public System.Windows.Forms.TextBox txtID;
+        public System.Windows.Forms.Label lblUserName;
+        public System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        public System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        public System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        public System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        public System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        public System.Windows.Forms.Button btnAdd;
+        public System.Windows.Forms.Button button1;
+        public System.Windows.Forms.Button button2;
+        public System.Windows.Forms.Button button3;
     }
 }

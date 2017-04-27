@@ -36,5 +36,10 @@ namespace Assigment1
             GenerateReport r = new GenerateReport();
             r.Show();
         }
+
+        private void Admin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

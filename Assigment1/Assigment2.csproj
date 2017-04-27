@@ -51,123 +51,134 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddForm.cs">
+    <Compile Include="Factory\Activity.cs" />
+    <Compile Include="Factory\ActivityFile.cs" />
+    <Compile Include="Factory\EmployeeFile.cs" />
+    <Compile Include="Factory\GenerateReportFactory.cs" />
+    <Compile Include="Factory\IGenerateRaports.cs" />
+    <Compile Include="Model\AddFormModel.cs" />
+    <Compile Include="Model\AddOrderModel.cs" />
+    <Compile Include="Model\CrudFormModel.cs" />
+    <Compile Include="Presenter\AddFormPresenter.cs" />
+    <Compile Include="Presenter\AddOrderPresenter.cs" />
+    <Compile Include="Presenter\CrudFormPresenter.cs" />
+    <Compile Include="View\AddForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddForm.Designer.cs">
+    <Compile Include="View\AddForm.Designer.cs">
       <DependentUpon>AddForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddOrder.cs">
+    <Compile Include="View\AddOrder.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddOrder.Designer.cs">
+    <Compile Include="View\AddOrder.Designer.cs">
       <DependentUpon>AddOrder.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin.cs">
+    <Compile Include="View\Admin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin.Designer.cs">
+    <Compile Include="View\Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="CrudForm.cs">
+    <Compile Include="View\CrudForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CrudForm.Designer.cs">
+    <Compile Include="View\CrudForm.Designer.cs">
       <DependentUpon>CrudForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeleteProduct.cs">
+    <Compile Include="View\DeleteProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeleteProduct.Designer.cs">
+    <Compile Include="View\DeleteProduct.Designer.cs">
       <DependentUpon>DeleteProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="Employee.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Model\Employee.cs" />
+    <Compile Include="View\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="View\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="View\Form2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
+    <Compile Include="View\Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-    <Compile Include="GenerateReport.cs">
+    <Compile Include="View\GenerateReport.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GenerateReport.Designer.cs">
+    <Compile Include="View\GenerateReport.Designer.cs">
       <DependentUpon>GenerateReport.cs</DependentUpon>
     </Compile>
-    <Compile Include="IDBManager.cs" />
-    <Compile Include="Modify.cs">
+    <Compile Include="Model\IDBManager.cs" />
+    <Compile Include="View\Modify.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modify.Designer.cs">
+    <Compile Include="View\Modify.Designer.cs">
       <DependentUpon>Modify.cs</DependentUpon>
     </Compile>
-    <Compile Include="MySQLDBManager.cs" />
-    <Compile Include="Order.cs" />
-    <Compile Include="Product.cs" />
+    <Compile Include="Presenter\MySQLDBManager.cs" />
+    <Compile Include="Model\Order.cs" />
+    <Compile Include="Model\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Register.cs">
+    <Compile Include="View\Register.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Register.Designer.cs">
+    <Compile Include="View\Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
-    <Compile Include="UpdateOrder.cs">
+    <Compile Include="View\UpdateOrder.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdateOrder.Designer.cs">
+    <Compile Include="View\UpdateOrder.Designer.cs">
       <DependentUpon>UpdateOrder.cs</DependentUpon>
     </Compile>
-    <Compile Include="UpdateProduct.cs">
+    <Compile Include="View\UpdateProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdateProduct.Designer.cs">
+    <Compile Include="View\UpdateProduct.Designer.cs">
       <DependentUpon>UpdateProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="User.cs" />
-    <Compile Include="View.cs">
+    <Compile Include="Model\User.cs" />
+    <Compile Include="View\View.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View.Designer.cs">
+    <Compile Include="View\View.Designer.cs">
       <DependentUpon>View.cs</DependentUpon>
     </Compile>
-    <Compile Include="View1.cs">
+    <Compile Include="View\View1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View1.Designer.cs">
+    <Compile Include="View\View1.Designer.cs">
       <DependentUpon>View1.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddForm.resx">
+    <EmbeddedResource Include="View\AddForm.resx">
       <DependentUpon>AddForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddOrder.resx">
+    <EmbeddedResource Include="View\AddOrder.resx">
       <DependentUpon>AddOrder.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin.resx">
+    <EmbeddedResource Include="View\Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CrudForm.resx">
+    <EmbeddedResource Include="View\CrudForm.resx">
       <DependentUpon>CrudForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DeleteProduct.resx">
+    <EmbeddedResource Include="View\DeleteProduct.resx">
       <DependentUpon>DeleteProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="View\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
+    <EmbeddedResource Include="View\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GenerateReport.resx">
+    <EmbeddedResource Include="View\GenerateReport.resx">
       <DependentUpon>GenerateReport.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Modify.resx">
+    <EmbeddedResource Include="View\Modify.resx">
       <DependentUpon>Modify.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -179,19 +190,19 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Register.resx">
+    <EmbeddedResource Include="View\Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpdateOrder.resx">
+    <EmbeddedResource Include="View\UpdateOrder.resx">
       <DependentUpon>UpdateOrder.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpdateProduct.resx">
+    <EmbeddedResource Include="View\UpdateProduct.resx">
       <DependentUpon>UpdateProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View.resx">
+    <EmbeddedResource Include="View\View.resx">
       <DependentUpon>View.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View1.resx">
+    <EmbeddedResource Include="View\View1.resx">
       <DependentUpon>View1.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -205,8 +216,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="View\App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

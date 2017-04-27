@@ -55,9 +55,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Assigment1\Assigment1.csproj">
+    <ProjectReference Include="..\Assigment1\Assigment2.csproj">
       <Project>{c901c625-f564-437f-ab23-d99841ca23f4}</Project>
-      <Name>Assigment1</Name>
+      <Name>Assigment2</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

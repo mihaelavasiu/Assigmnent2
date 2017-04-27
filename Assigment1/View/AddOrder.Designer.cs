@@ -316,33 +316,33 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtProductID;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.TextBox txtValue;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox txtPieces;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtAddress;
-        private System.Windows.Forms.Label lbAddress;
-        private System.Windows.Forms.TextBox txtCustomer;
-        private System.Windows.Forms.Label lbCustomer;
-        private System.Windows.Forms.Label lblUserName;
-        private System.Windows.Forms.TextBox txtStatus;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtID;
-        private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        public System.Windows.Forms.TextBox txtProductID;
+        public System.Windows.Forms.Label label6;
+        public System.Windows.Forms.Label label5;
+        public System.Windows.Forms.Label label4;
+        public System.Windows.Forms.DataGridViewTextBoxColumn Column8;
+        public System.Windows.Forms.DataGridViewTextBoxColumn Column7;
+        public System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        public System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        public System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        public System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        public System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        public System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        public System.Windows.Forms.TextBox txtValue;
+        public System.Windows.Forms.DataGridView dataGridView1;
+        public System.Windows.Forms.TextBox txtPieces;
+        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.TextBox txtAddress;
+        public System.Windows.Forms.Label lbAddress;
+        public System.Windows.Forms.TextBox txtCustomer;
+        public System.Windows.Forms.Label lbCustomer;
+        public System.Windows.Forms.Label lblUserName;
+        public System.Windows.Forms.TextBox txtStatus;
+        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.Label label2;
+        public System.Windows.Forms.TextBox txtID;
+        public System.Windows.Forms.Button btnAdd;
+        public System.Windows.Forms.DateTimePicker dateTimePicker1;
 
     }
 }
